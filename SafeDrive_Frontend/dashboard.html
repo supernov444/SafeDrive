@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - SafeDrive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>SafeDrive</h2>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item active">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="history.html" class="nav-item">
+                    <i class="fas fa-history"></i>
+                    <span>Alert History</span>
+                </a>
+                <a href="contacts.html" class="nav-item">
+                    <i class="fas fa-address-book"></i>
+                    <span>Emergency Contacts</span>
+                </a>
+                <a href="profile.html" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="about.html" class="nav-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About Us</span>
+                </a>
+                <a href="index.html" class="nav-item logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="dashboard-content">
+            <header class="content-header">
+                <div class="header-title">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back, John! Drive safely today.</p>
+                </div>
+                <div class="header-actions">
+                    <div class="notification-bell">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-count">3</span>
+                    </div>
+                    <div class="user-profile">
+                        <img src="https://ui-avatars.com/api/?name=John+Doe&background=018ABE&color=fff" alt="User">
+                    </div>
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                <!-- GPS Map Section -->
+                <div class="card map-card">
+                    <div class="card-header">
+                        <h2>Current Location</h2>
+                        <div class="location-status">
+                            <span class="status-indicator active"></span>
+                            <span>GPS Active</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="map-container">
+                            <div class="map-placeholder">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>GPS Map will be integrated here</p>
+                                <div class="current-location">
+                                    <p>Latitude: 40.7128° N</p>
+                                    <p>Longitude: 74.0060° W</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Status Overview -->
+                <div class="card status-card">
+                    <div class="card-header">
+                        <h2>Driver Status</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="status-grid">
+                            <div class="status-item">
+                                <div class="status-icon alert">
+                                    <i class="fas fa-eye"></i>
+                                </div>
+                                <div class="status-info">
+                                    <h3>Eye Detection</h3>
+                                    <p>Normal</p>
+                                </div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-icon warning">
+                                    <i class="fas fa-smile"></i>
+                                </div>
+                                <div class="status-info">
+                                    <h3>Facial Emotion</h3>
+                                    <p>Slight Fatigue</p>
+                                </div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-icon normal">
+                                    <i class="fas fa-microphone"></i>
+                                </div>
+                                <div class="status-info">
+                                    <h3>Voice Emotion</h3>
+                                    <p>Normal</p>
+                                </div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-icon normal">
+                                    <i class="fas fa-tired"></i>
+                                </div>
+                                <div class="status-info">
+                                    <h3>Yawning Frequency</h3>
+                                    <p>Low</p>
+                                </div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-icon normal">
+                                    <i class="fas fa-head-side"></i>
+                                </div>
+                                <div class="status-info">
+                                    <h3>Head Tilt</h3>
+                                    <p>Normal</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

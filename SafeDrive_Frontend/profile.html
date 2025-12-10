@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - SafeDrive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar (same as dashboard) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>SafeDrive</h2>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="history.html" class="nav-item">
+                    <i class="fas fa-history"></i>
+                    <span>Alert History</span>
+                </a>
+                <a href="contacts.html" class="nav-item">
+                    <i class="fas fa-address-book"></i>
+                    <span>Emergency Contacts</span>
+                </a>
+                <a href="profile.html" class="nav-item active">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="about.html" class="nav-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About Us</span>
+                </a>
+                <a href="index.html" class="nav-item logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="dashboard-content">
+            <header class="content-header">
+                <div class="header-title">
+                    <h1>Profile</h1>
+                    <p>Manage your account information and preferences</p>
+                </div>
+            </header>
+
+            <div class="profile-container">
+                <div class="card profile-card">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <img src="https://ui-avatars.com/api/?name=John+Doe&background=018ABE&color=fff&size=120" alt="Profile">
+                            <div class="avatar-overlay">
+                                <button class="edit-avatar-btn">
+                                    <i class="fas fa-camera"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <h2>John Doe</h2>
+                            <p class="member-since">Member since October 2022</p>
+                            <div class="profile-status">
+                                <span class="status-badge active">Active</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-details-grid">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="detail-content">
+                                <label>Full Name</label>
+                                <p>John Michael Doe</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="detail-content">
+                                <label>Email Address</label>
+                                <p>john.doe@example.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="detail-content">
+                                <label>Phone Number</label>
+                                <p>+63999999999</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-birthday-cake"></i>
+                            </div>
+                            <div class="detail-content">
+                                <label>Date of Birth</label>
+                                <p>January 15, 1985</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="detail-content">
+                                <label>Address</label>
+                                <p>Kanal Street</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="profile-actions">
+                        <button class="btn-primary" id="edit-profile-btn">
+                            <i class="fas fa-edit"></i>
+                            Edit Profile
+                        </button>
+                    </div>
+                </div>
+
+                <div class="card preferences-card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-bell"></i> Notification Preferences</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="preference-item">
+                            <div class="preference-info">
+                                <h3>Email Notifications</h3>
+                                <p>Receive important alerts via email</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="preference-item">
+                            <div class="preference-info">
+                                <h3>SMS Alerts</h3>
+                                <p>Get critical alerts as text messages</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="preference-item">
+                            <div class="preference-info">
+                                <h3>Push Notifications</h3>
+                                <p>Receive app notifications</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="preference-item">
+                            <div class="preference-info">
+                                <h3>Monthly Reports</h3>
+                                <p>Receive monthly driving reports</p>
+                            </div>
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card security-card">
+                    <div class="card-header">
+                        <h2><i class="fas fa-shield-alt"></i> Security Settings</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="security-item">
+                            <div class="security-icon">
+                                <i class="fas fa-key"></i>
+                            </div>
+                            <div class="security-info">
+                                <h3>Change Password</h3>
+                                <p>Last changed 3 months ago</p>
+                            </div>
+                            <button class="btn-secondary">Change</button>
+                        </div>
+                        <div class="security-item">
+                            <div class="security-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="security-info">
+                                <h3>Two-Factor Authentication</h3>
+                                <p>Add an extra layer of security to your account</p>
+                            </div>
+                            <button class="btn-secondary">Enable 2FA</button>
+                        </div>
+                        <div class="security-item">
+                            <div class="security-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="security-info">
+                                <h3>Connected Devices</h3>
+                                <p>2 devices connected</p>
+                            </div>
+                            <button class="btn-secondary">Manage</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Edit Profile Modal -->
+    <div class="modal" id="edit-profile-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Profile</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form class="profile-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="edit-name">Full Name</label>
+                            <input type="text" id="edit-name" value="John Michael Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-dob">Date of Birth</label>
+                            <input type="date" id="edit-dob" value="1985-01-15" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="edit-email">Email Address</label>
+                            <input type="email" id="edit-email" value="john.doe@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="edit-phone">Phone Number</label>
+                            <input type="tel" id="edit-phone" value="+1 (555) 123-4567" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="edit-address">Address</label>
+                        <textarea id="edit-address" required>123 Main Street, New York, NY 10001</textarea>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary close-modal">Cancel</button>
+                        <button type="submit" class="btn-primary">Save Changes</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

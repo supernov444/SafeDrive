@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Contacts - SafeDrive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar (same as dashboard) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>SafeDrive</h2>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="history.html" class="nav-item">
+                    <i class="fas fa-history"></i>
+                    <span>Alert History</span>
+                </a>
+                <a href="contacts.html" class="nav-item active">
+                    <i class="fas fa-address-book"></i>
+                    <span>Emergency Contacts</span>
+                </a>
+                <a href="profile.html" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="about.html" class="nav-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About Us</span>
+                </a>
+                <a href="index.html" class="nav-item logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="dashboard-content">
+            <header class="content-header">
+                <div class="header-title">
+                    <h1>Emergency Contacts</h1>
+                    <p>Manage your emergency contact list</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-primary" id="add-contact-btn">
+                        <i class="fas fa-plus"></i>
+                        Add Contact
+                    </button>
+                </div>
+            </header>
+
+            <div class="contacts-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>My Emergency Contacts</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="contacts-list">
+                            <div class="contact-item">
+                                <div class="contact-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h3>Sarah Johnson</h3>
+                                    <p>Spouse</p>
+                                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                                </div>
+                                <div class="contact-actions">
+                                    <button class="btn-icon">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                    <button class="btn-icon">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h3>Michael Chen</h3>
+                                    <p>Friend</p>
+                                    <p><i class="fas fa-phone"></i> +1 (555) 987-6543</p>
+                                </div>
+                                <div class="contact-actions">
+                                    <button class="btn-icon">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                    <button class="btn-icon">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h3>Dr. Emily Williams</h3>
+                                    <p>Doctor</p>
+                                    <p><i class="fas fa-phone"></i> +1 (555) 456-7890</p>
+                                </div>
+                                <div class="contact-actions">
+                                    <button class="btn-icon">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                    <button class="btn-icon">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card emergency-info">
+                    <div class="card-header">
+                        <h2>Emergency Settings</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="settings-item">
+                            <h3>Automatic Emergency Calls</h3>
+                            <p>When enabled, SafeDrive will automatically call your emergency contacts in case of a critical event.</p>
+                            <label class="switch">
+                                <input type="checkbox" checked>
+                                <span class="slider"></span>
+                            </label>
+                        </div>
+                        <div class="settings-item">
+                            <h3>Emergency Message</h3>
+                            <p>Customize the message sent to your contacts during an emergency.</p>
+                            <textarea placeholder="Emergency message template">Emergency alert: I may need assistance. My current location is {location}. Please check on me.</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Add Contact Modal -->
+    <div class="modal" id="add-contact-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add Emergency Contact</h2>
+                <span class="close-modal">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Full Name</label>
+                        <input type="text" id="contact-name" placeholder="Enter full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-relationship">Relationship</label>
+                        <input type="text" id="contact-relationship" placeholder="e.g., Spouse, Friend, Doctor" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Phone Number</label>
+                        <input type="tel" id="contact-phone" placeholder="Enter phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email (Optional)</label>
+                        <input type="email" id="contact-email" placeholder="Enter email address">
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn-secondary close-modal">Cancel</button>
+                        <button type="submit" class="btn-primary">Save Contact</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

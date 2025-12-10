@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert History - SafeDrive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dashboard-page">
+    <div class="dashboard-container">
+        <!-- Sidebar (same as dashboard) -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>SafeDrive</h2>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <a href="dashboard.html" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="history.html" class="nav-item active">
+                    <i class="fas fa-history"></i>
+                    <span>Alert History</span>
+                </a>
+                <a href="contacts.html" class="nav-item">
+                    <i class="fas fa-address-book"></i>
+                    <span>Emergency Contacts</span>
+                </a>
+                <a href="profile.html" class="nav-item">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="about.html" class="nav-item">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About Us</span>
+                </a>
+                <a href="index.html" class="nav-item logout">
+                    <i class="fas fa-sign-out-alt"></i>
+                    <span>Logout</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="dashboard-content">
+            <header class="content-header">
+                <div class="header-title">
+                    <h1>Alert History</h1>
+                    <p>Review past alerts and notifications</p>
+                </div>
+                <div class="header-actions">
+                    <div class="filter-dropdown">
+                        <select id="alert-filter">
+                            <option value="all">All Alerts</option>
+                            <option value="critical">Critical Only</option>
+                            <option value="warning">Warnings</option>
+                            <option value="normal">Normal</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+
+            <div class="history-container">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Alert Timeline</h2>
+                    </div>
+                    <div class="card-content">
+                        <div class="timeline">
+                            <div class="timeline-item critical">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Prolonged Eye Closure Detected</h3>
+                                    <p class="timeline-time">Today, 10:23 AM</p>
+                                    <p>Driver's eyes were closed for more than 2 seconds while vehicle was in motion.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item warning">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Signs of Fatigue Detected</h3>
+                                    <p class="timeline-time">Today, 9:45 AM</p>
+                                    <p>Facial expression analysis indicated signs of drowsiness.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item normal">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>System Check Completed</h3>
+                                    <p class="timeline-time">Yesterday, 6:30 PM</p>
+                                    <p>All monitoring systems functioning normally.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item warning">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Yawning Frequency Increased</h3>
+                                    <p class="timeline-time">Yesterday, 5:12 PM</p>
+                                    <p>Multiple yawns detected within a 10-minute period.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item critical">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Head Tilt Alert</h3>
+                                    <p class="timeline-time">October 12, 2023, 2:34 PM</p>
+                                    <p>Driver's head position indicated possible microsleep episode.</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item normal">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <h3>Voice Stress Normal</h3>
+                                    <p class="timeline-time">October 11, 2023, 7:45 PM</p>
+                                    <p>Voice analysis indicated normal stress levels.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-card">
+                    <div class="stat">
+                        <h3>Total Alerts</h3>
+                        <p class="stat-number">24</p>
+                        <p class="stat-period">This Month</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Critical Alerts</h3>
+                        <p class="stat-number">5</p>
+                        <p class="stat-period">Require Immediate Attention</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Warning Alerts</h3>
+                        <p class="stat-number">12</p>
+                        <p class="stat-period">Early Indicators</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
