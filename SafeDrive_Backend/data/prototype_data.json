@@ -1,0 +1,582 @@
+
+{
+  "gripStatus": "LOOSE",
+  "eyesStatus": "OPEN",
+  "bpm": 30,
+  "spo2": 40,
+  "carStatus": "MOVING",
+  "overallStatus": "ALERT",
+  "notifications": [
+    {
+      "timestamp": "2025-11-09T08:29:43.294Z",
+      "issues": [
+        "Low SpO2: 85"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:32:28.454Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:32:28.455Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:32:28.457Z",
+      "issues": [
+        "Low SpO2: 84"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:38:23.150Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:38:23.151Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:38:23.153Z",
+      "issues": [
+        "Low SpO2: 80"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:54:06.388Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:54:06.389Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T08:54:06.391Z",
+      "issues": [
+        "Low SpO2: 80"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:02.211Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:02.212Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:02.214Z",
+      "issues": [
+        "Low SpO2: 80"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:19.175Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:19.176Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:19.178Z",
+      "issues": [
+        "Low SpO2: 80"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:20.365Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:20.366Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:20.368Z",
+      "issues": [
+        "Low SpO2: 80"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:21.561Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:21.562Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:21.564Z",
+      "issues": [
+        "Low SpO2: 80"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:35.174Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:35.175Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:01:35.177Z",
+      "issues": [
+        "Low SpO2: 77"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:04.567Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:04.568Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:04.570Z",
+      "issues": [
+        "Low SpO2: 77"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:37.614Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:37.615Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:37.616Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:02:37.617Z",
+      "issues": [
+        "Low SpO2: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:42:50.227Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:42:50.228Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:42:50.229Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:42:50.230Z",
+      "issues": [
+        "Low SpO2: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:55:16.169Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:55:16.170Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:55:16.171Z",
+      "issues": [
+        "Abnormal BPM: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T09:55:16.172Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T10:07:13.017Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T10:07:13.018Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T10:07:13.019Z",
+      "issues": [
+        "Abnormal BPM: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T10:07:13.020Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:32:52.319Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:32:52.320Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:32:52.321Z",
+      "issues": [
+        "Abnormal BPM: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:32:52.322Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:36:59.129Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:36:59.131Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:37:36.883Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:37:36.884Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:37:36.885Z",
+      "issues": [
+        "Abnormal BPM: 37"
+      ]
+    },
+    {
+      "timestamp": "2025-11-09T11:37:36.886Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:36:55.138Z",
+      "issues": [
+        "Abnormal BPM: 37"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:36:55.139Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:41:09.957Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:41:09.958Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:41:09.959Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:41:09.960Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:42:46.904Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:42:46.905Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:47:57.502Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:47:57.503Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:47:57.504Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:47:57.505Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:48:11.491Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:48:11.492Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:48:11.493Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:48:11.494Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:47.420Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:47.422Z",
+      "issues": [
+        "Abnormal BPM: 50"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:47.423Z",
+      "issues": [
+        "Low SpO2: 50"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:58.894Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:58.895Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:58.896Z",
+      "issues": [
+        "Abnormal BPM: 50"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:52:58.897Z",
+      "issues": [
+        "Low SpO2: 50"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:54:08.585Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T06:54:08.586Z",
+      "issues": [
+        "Abnormal BPM: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T07:01:29.735Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T07:01:29.736Z",
+      "issues": [
+        "Abnormal BPM: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T07:01:29.737Z",
+      "issues": [
+        "Low SpO2: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T08:02:52.554Z",
+      "issues": [
+        "Eyes Closed"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T08:04:12.923Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T08:04:27.986Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-10T08:04:27.987Z",
+      "issues": [
+        "Low SpO2: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T13:34:14.040Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T13:34:14.042Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T13:34:14.043Z",
+      "issues": [
+        "Low SpO2: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T13:34:21.044Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T13:34:21.046Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T13:34:21.047Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T14:23:23.326Z",
+      "issues": [
+        "Loose Grip"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T14:23:23.328Z",
+      "issues": [
+        "Abnormal BPM: 30"
+      ]
+    },
+    {
+      "timestamp": "2025-11-14T14:23:23.329Z",
+      "issues": [
+        "Low SpO2: 40"
+      ]
+    }
+  ],
+  "updatedAt": "2025-11-14T14:23:23.326Z"
+}
